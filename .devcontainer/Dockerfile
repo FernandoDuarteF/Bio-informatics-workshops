@@ -48,6 +48,9 @@ RUN curl -L -o /tmp/miniforge.sh \
 ENV PATH="/opt/conda/bin:${PATH}"
 
 # Installation of bioinformatics tools for the 16S amplicon level
-RUN conda install -y fastqc cutadapt trim-galore pear vsearch && conda clean -afy
+RUN conda create -y -n amplicon python=3.10 fastqc seqkit cutadapt trim-galore pear sra-tools vsearch && \
+    conda clean -afy
+
+ENV PATH="/opt/conda/envs/amplicon/bin:/opt/conda/bin:${PATH}"
 
 USER vscode

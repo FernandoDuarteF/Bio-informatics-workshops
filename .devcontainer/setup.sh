@@ -16,7 +16,7 @@ conda install -y -c bioconda -c conda-forge fastqc cutadapt trim-galore pear vse
 
 echo "Installing reference database"
 
-cd /workspaces/Bio-informatics-workshopsD
+cd /workspaces/Bio-informatics-workshops
 mkdir -p database
 
 # SILVA database will be downloaded here

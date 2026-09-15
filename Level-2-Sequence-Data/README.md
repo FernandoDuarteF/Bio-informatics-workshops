@@ -1,7 +1,10 @@
 > [!WARNING]
 > Warning: This section is currently being updated.
+> 
+
 ---
-> # Level 2 - Amplicon Sequencing Analysis
+
+# Level 2 - Amplicon Sequencing Analysis
 
 This second level guides through a small and complete workflow for amplicon sequencing data (16S)
 
@@ -24,8 +27,12 @@ After completing this level, you should be able to:
 
 ## Workshop Contents
 
+>[!NOTE]
+> If you are using the Codespace provided for this workshop, all the tools are already installed and available directly in the terminal. You can skip ahead to step 0.b.
+> If you are working locally, create the conda environment shown below.
+
 ### 0. Requirements and download SRA data
-#### 0.a Installation of tools + Creation of the environment
+#### 0.a *On your own laptop* Installation of tools + Creation of the environment
 ```
 conda create -n amplicon-tutorial -c bioconda -c conda-forge fastqc seqkit trim-galore cutadapt pear sra-tools vsearch
 conda activate amplicon-tutorial
