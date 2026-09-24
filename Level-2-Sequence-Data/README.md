@@ -148,7 +148,7 @@ vsearch --derep_fulllength results/filtered.fasta \
 ##### 6.1.c Denoising (UNOISE3/ASVs)
 ```
 vsearch --cluster_unoise results/derep.fasta \
-        --centroids results/zotus.fasta
+        --centroids results/zotus.fasta \
         --minsize 8
 ```
 *UNOISE3 attempts to distinguish true biological variants from sequencing errors*
