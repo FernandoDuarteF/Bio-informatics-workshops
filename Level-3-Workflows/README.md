@@ -2,7 +2,7 @@
 
 This level covers running real, published bioinformatics pipelines with **Nextflow** and **nf-core**, from a small amplicon-sequencing analysis to running that analysis through a job scheduler on an HPC cluster.
 
-These two lessons are part of Eco-Flow's [Nextflow training course](https://github.com/Eco-Flow/training) — follow the links below to open them there, and use their Codespaces badge to get a working environment with the sample data already included.
+These two lessons are part of Eco-Flow's [Nextflow training course](https://github.com/Eco-Flow/training). Follow the links below to open them there, and use their Codespaces badge to get a working environment with the sample data already included.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Eco-Flow/training)
 
