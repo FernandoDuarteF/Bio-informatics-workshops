@@ -17,14 +17,6 @@ Both lessons below are adapted from Eco-Flow's [Nextflow training course](https:
 
 ---
 
-## Recommended External Resources
-
-- [nf-core/ampliseq documentation](https://nf-co.re/ampliseq)
-- [nf-co.re/configs](https://nf-co.re/configs) — ready-made institutional HPC configs
-- [Official Nextflow training](https://training.nextflow.io/)
-
----
-
 ## Next Level
 
 If you're looking for more, the original [Eco-Flow training course](https://github.com/Eco-Flow/training) this workshop draws from also covers other pipelines such as differential expression analysis, contributing to pipelines on GitHub, and many other things related to nf-core and Nextflow.
