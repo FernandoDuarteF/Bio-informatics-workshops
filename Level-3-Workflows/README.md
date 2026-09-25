@@ -1,21 +1,10 @@
 # Level 3 - Workflows
 
-This level covers running real, published bioinformatics pipelines with **Nextflow** and **nf-core** — from a small amplicon-sequencing analysis to running that analysis through a job scheduler on an HPC cluster.
+This level covers running real, published bioinformatics pipelines with **Nextflow** and **nf-core**, from a small amplicon-sequencing analysis to running that analysis through a job scheduler on an HPC cluster.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/FernandoDuarteF/Bio-informatics-workshops)
 
-> 📦 Both lessons below are adapted from Eco-Flow's [Nextflow training course](https://github.com/Eco-Flow/training) and included here as reading material — see the note at the top of each page for what's runnable as-is versus what needs the original course repo's data/scripts.
-
-## Learning Objectives
-
-After completing this level, you should be able to:
-
-- Explain what nf-core/ampliseq does and what inputs it needs.
-- Build a samplesheet and metadata file for an amplicon-sequencing run.
-- Run an nf-core pipeline with Docker, and read its results.
-- Explain how a cluster (login node, scheduler, compute nodes) differs from a single machine.
-- Submit, watch, and cancel jobs on a Slurm/SGE scheduler.
-- Configure Nextflow to submit its tasks to a scheduler instead of running them locally.
+Both lessons below are adapted from Eco-Flow's [Nextflow training course](https://github.com/Eco-Flow/training) and included here as reading material.
 
 ---
 
@@ -38,4 +27,4 @@ After completing this level, you should be able to:
 
 ## Next Level
 
-This is currently the last level in this repo's roadmap. If you're looking for more, the [Eco-Flow training course](https://github.com/Eco-Flow/training) this level draws from also covers differential expression analysis, Nanopore metabarcoding, and contributing to pipelines on GitHub.
+If you're looking for more, the original [Eco-Flow training course](https://github.com/Eco-Flow/training) this workshop draws from also covers other pipelines such as differential expression analysis, contributing to pipelines on GitHub, and many other things related to nf-core and Nextflow.
